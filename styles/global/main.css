@@ -3,5 +3,10 @@ main {
   max-width: 1960px;
   background-size: cover;
   background-position: center center;
-  background-image: url("../../assets/banner-mobile.png");
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
 }

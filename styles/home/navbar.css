@@ -1,8 +1,6 @@
 @import url("./menu-icon.css");
 
 .navbar {
-  width: 100%;
-  max-width: 1200px;
   height: inherit;
   display: flex;
   margin: 0 auto;

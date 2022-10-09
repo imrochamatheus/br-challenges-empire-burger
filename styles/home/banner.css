@@ -1,7 +1,8 @@
-.container {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1200px;
+.container-banner {
+  background-image: url("../../assets/banner-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 65%;
 }
 
 .banner {
@@ -15,7 +16,7 @@
 }
 
 .banner-content {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .banner-content p {
@@ -83,15 +84,11 @@
 
 @media screen and (min-width: 576px) {
   .main {
-    background-position: 50% 30%;
+    background-position: 50% 70%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  main {
-    background-image: url("../../assets/banner-hero.png");
-  }
-
   .banner-content p {
     font-size: 22px;
   }
