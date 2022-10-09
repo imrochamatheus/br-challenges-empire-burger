@@ -4,14 +4,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: var(--title);
   height: 855.43px;
   padding: 23.85px;
   box-sizing: border-box;
 }
 
 .banner-content {
-  margin-top: calc(101px - 23.85px);
+  margin-top: 63.87px;
 }
 
 .banner-content p {
@@ -19,9 +18,10 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
+  color: var(--color-title);
 }
 
-.banner-content h1 {
+.banner-content p:nth-child(2) {
   font-style: normal;
   font-weight: 400;
   font-size: 53.3477px;
@@ -30,27 +30,34 @@
   text-transform: uppercase;
 }
 
-.banner-content h1 span {
-  color: var(--yellow);
+.banner-content p:nth-child(2)::after {
+  content: "burger";
+  margin-left: 10px;
+  color: var(--color-yellow);
 }
 
-.banner-content h2 {
+.banner-content p:nth-child(3) {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  color: var(--color-text);
 }
 
-.banner-content h2 span {
+.banner-content p:nth-child(3)::after {
+  content: "Apetite de um REI!";
+  font-size: 16.5px;
+  line-height: 22px;
   font-weight: 700;
   display: inline-block;
-  background-color: var(--yellow);
   border-radius: 6px;
   padding: 3px;
+  margin-left: 2px;
+  background-color: var(--color-yellow);
 }
 
 .banner-button {
-  background-color: var(--red);
+  background-color: var(--color-red);
   color: #ffffff;
   width: 100%;
   max-width: 151.64px;
