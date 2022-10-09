@@ -1,0 +1,70 @@
+.banner {
+  background-image: url("../../assets/banner-mobile.png");
+  font-family: "Lato";
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--title);
+  height: 855.43px;
+  padding: 23.85px;
+  box-sizing: border-box;
+}
+
+.banner-content {
+  margin-top: calc(101px - 23.85px);
+}
+
+.banner-content p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.banner-content h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53.3477px;
+  line-height: 59px;
+  font-family: "Lilita One";
+  text-transform: uppercase;
+}
+
+.banner-content h1 span {
+  color: var(--yellow);
+}
+
+.banner-content h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.banner-content h2 span {
+  font-weight: 700;
+  display: inline-block;
+  background-color: var(--yellow);
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.banner-button {
+  background-color: var(--red);
+  color: #ffffff;
+  width: 100%;
+  max-width: 151.64px;
+  height: 43.32px;
+  border-radius: 5.08023px;
+  padding: 10.1605px 20.3209px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 16.23px;
+  cursor: pointer;
+}
