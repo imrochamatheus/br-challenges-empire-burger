@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrChallenges Empire Burger</title>
+
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header-logo"
+        src="./assets/logo.png"
+        alt="Empire Burger logo"
+      />
+
+      <nav class="header-navbar">
+        <a href="#home">Home</a>
+        <a href="#promocao">Promoção</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#comentario">Comentário</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-contacts">
+        <img src="./assets/icons/ifood.svg" alt="ifood icon" />
+        <img src="./assets/icons/instagram.svg" alt="instagram icon" />
+        <div class="header-contacts__divider"></div>
+        <button class="header-contacts__whats">
+          <img src="./assets/icons/whatsapp.svg" alt="whatsapp icon" />
+          Contato
+        </button>
+      </div>
+
+      <div class="mobile-nav-button">
+        <div id="mobile-nav-icon" onclick="toggleClass(this, 'open')">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
