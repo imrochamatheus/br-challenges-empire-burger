@@ -20,10 +20,60 @@
   .navbar-contacts {
     display: block;
   }
-}
 
-/* .header-contacts__divider {
+  .navbar-nav {
+    display: flex;
+    gap: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .navbar-nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--color-text);
+  }
+
+  .navbar-nav a:focus {
+    font-weight: 700;
+  }
+
+  .navbar-contacts {
+    display: flex;
+    align-items: center;
+    gap: 17.5px;
+  }
+
+  .navbar-contacts__divider {
     width: 0px;
-    border: 1px solid var(--wine);
+    border-left: 2px solid var(--color-wine);
     height: 47.66px;
-  } */
+  }
+
+  .navbar-contacts button {
+    color: var(--color-brown);
+    background-color: var(--color-yellow);
+    border-radius: 4px;
+    width: 100%;
+    max-width: 123px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 9.29px;
+    border: none;
+    padding: 4px 16px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Lato";
+  }
+
+  .navbar-contacts button img {
+    width: 21.43px;
+    height: 21px;
+  }
+}

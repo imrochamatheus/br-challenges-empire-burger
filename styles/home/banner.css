@@ -6,13 +6,13 @@
 }
 
 .banner {
-  font-family: "Lato";
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   height: 855.43px;
   padding: 23.85px;
   box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .banner-content {
@@ -82,13 +82,23 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 576px) {
-  .main {
-    background-position: 50% 70%;
-  }
-}
-
 @media screen and (min-width: 768px) {
+  .container-banner {
+    background-position: 60% center;
+    background-image: url("../../assets/banner-hero.png");
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 545px;
+  }
+
+  .banner-content {
+    margin-top: 0;
+  }
+
   .banner-content p {
     font-size: 22px;
   }
@@ -106,5 +116,30 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
+  .banner-content p {
+    font-size: 22.861px;
+    line-height: 23px;
+  }
+
+  .banner-content p:nth-child(2) {
+    font-size: 77.651px;
+    line-height: 85px;
+  }
+
+  .banner-content p:nth-child(3) {
+    font-size: 22.861px;
+    line-height: 32px;
+  }
+
+  .banner-content p:nth-child(3)::after {
+    font-size: 23.861px;
+  }
+
+  .banner-button {
+    max-width: 198.64px;
+    height: 52.32px;
+    font-size: 22.861px;
+    line-height: 32px;
+  }
 }
