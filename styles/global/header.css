@@ -1,0 +1,8 @@
+header {
+  width: 100%;
+  max-width: 1960px;
+  height: 63.87px;
+  position: fixed;
+  backdrop-filter: blur(5px);
+  background-color: rgba(59, 32, 11, 0.05);
+}

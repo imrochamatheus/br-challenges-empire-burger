@@ -1,5 +1,10 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 .banner {
-  background-image: url("../../assets/banner-mobile.png");
   font-family: "Lato";
   background-position: center;
   background-size: cover;
@@ -10,7 +15,7 @@
 }
 
 .banner-content {
-  margin-top: 63.87px;
+  margin-top: 15%;
 }
 
 .banner-content p {
@@ -74,4 +79,35 @@
   box-sizing: border-box;
   margin-top: 16.23px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .main {
+    background-position: 50% 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    background-image: url("../../assets/banner-hero.png");
+  }
+
+  .banner-content p {
+    font-size: 22px;
+  }
+
+  .banner-content p:nth-child(2) {
+    font-size: 57.3477px;
+  }
+
+  .banner-content p:nth-child(3) {
+    font-size: 20px;
+  }
+
+  .banner-content p:nth-child(3)::after {
+    font-size: 20.5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
 }

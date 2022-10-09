@@ -1,0 +1,7 @@
+main {
+  width: 100%;
+  max-width: 1960px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../../assets/banner-mobile.png");
+}

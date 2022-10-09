@@ -1,22 +1,27 @@
 @import url("./menu-icon.css");
 
-.header {
-  top: 0;
-  display: flex;
-  position: fixed;
-  padding: 14.34px;
-  height: 63.87px;
+.navbar {
   width: 100%;
+  max-width: 1200px;
+  height: inherit;
+  display: flex;
+  margin: 0 auto;
+  padding: 14.34px;
   align-items: center;
   box-sizing: border-box;
-  backdrop-filter: blur(5px);
   justify-content: space-between;
-  background-color: rgba(59, 32, 11, 0.05);
 }
 
-.header-navbar,
-.header-contacts {
+.navbar-nav,
+.navbar-contacts {
   display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav,
+  .navbar-contacts {
+    display: block;
+  }
 }
 
 /* .header-contacts__divider {
