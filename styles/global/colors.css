@@ -9,8 +9,9 @@
   --color-text: rgba(29, 6, 5, 0.69);
 
   --color-dividers: rgba(73, 46, 21, 0.15);
-  --color-specialties-title: rgba(250, 228, 208, 1);
-  --color-default-background: rgba(250, 243, 242, 1);
+  --color-icon-background: rgb(250, 226, 203);
+  --color-specialties-title: hsl(29, 81%, 90%);
+  --color-default-background: rgb(250, 243, 242);
 }
 
 body {
